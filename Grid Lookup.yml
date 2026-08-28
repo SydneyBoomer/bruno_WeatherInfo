@@ -1,0 +1,16 @@
+info:
+  name: Grid Lookup
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://api.weather.gov/points/39.0272,-84.4681
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
